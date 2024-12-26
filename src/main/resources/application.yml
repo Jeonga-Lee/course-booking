@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    #driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lecture_registration?useSSL=false&serverTimezone=UTC
+    username: root
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update  # 필요한 DDL 전략 설정 (create, update, validate, none)
+      dialect: org.hibernate.dialect.MySQL8Dialect  # MySQL8Dialect 사용
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
