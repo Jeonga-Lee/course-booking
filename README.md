@@ -30,7 +30,7 @@ ERD + Layer + Entity 를 설명하고 이와 같은 구조를 선택한 이유�
   하지만 작은 규모의 프로젝트임에도 다소 복잡한 구조로 구현 생산성이 떨어졌습니다.
   멘토링에서 구현의 편리함이 DIP가 주는 다른 장점(변경의 유연함, 테스트가 쉬움)만큼 중요하며,
   구현 클래스가 2개 이상이 될 가능성이 없다면 굳이 생산성을 떨어트리지 말자는 피드백을 받았습니다.
-  ![ERD](./src/main/resources/static/images/layer1.0.png)
+  ![LAYER](./src/main/resources/static/images/layer1.0.png)
 - 최종 설계<br>
   이후 application 영역이 infrastructure 영역을 의존하는 구조로 설계를 변경했습니다.
   해당 프로젝트는 구현 기술이 변경될 일이 없기 때문에 DIP를 완벽히 준수하지 않았습니다.
